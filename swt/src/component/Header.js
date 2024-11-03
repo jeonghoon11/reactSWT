@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className="header">
             <h1 className="title">
-                <a href="#">박연희 공부해라</a>
+                <a href="#">Study_Web</a>
             </h1>
             <Nav />
         </div>

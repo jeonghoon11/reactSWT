@@ -1,49 +1,49 @@
 .title {
+  display: inline-block;
   width: 30%;
-  margin-right: 20px;
+  margin: 20px;
   border-right: 1px solid black;
-  margin-left: 20px;
 }
+
+
 
 li {
   display: inline-block;
   list-style-type: none;
   width: 20%;
-  height: 10px;
+  position: relative;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
 
 h1 > a:hover {
     color: red;
-    border-radius: 5px;
-    border: 1px solid red;
 }
 
 a:hover {
   color: blue;
-  border-radius: 5px;
-  border: 1px solid blue;
-}
-
-.nav, .title {
-  display: inline-block;
+  animation-name : sizeup;
+  animation-duration : 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .nav {
-  float: right;
-}
-
-ul {
   display: flex;
   width: 70%;
+  float: right;
 }
 
 .header {
   display: flex;
+  border: 5px solid black;
   align-items: center;
-  border: 10px solid black;
+}
+
+@keyframes sizeup {
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
 }
