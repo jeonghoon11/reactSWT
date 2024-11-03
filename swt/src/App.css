@@ -5,7 +5,20 @@
   border-right: 1px solid black;
 }
 
+.textBox {
+  width: 110px;
+  border-radius: 6px;
+  opacity: 45%;
+}
 
+.find {
+  opacity: 60%;
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+  width: 15px;
+  height: 15px;
+}
 
 li {
   display: inline-block;
