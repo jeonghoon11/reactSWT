@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import { Route, Routes } from 'react-router-dom';
-import Contect from './Contect'
-import InfoShare from './InfoShare';
-import Member from './Member';
-import Q_A from './Q_A';
-import BaekJoon from './BaekJoon';
+import Contect from '../Body/Contect'
+import InfoShare from '../Body/InfoShare';
+import Member from '../Body/Member';
+import BaekJoon from '../Body/BaekJoon';
 import Nav from "./Nav";
-import Home from "./Home";
+import Home from "../Body/Home";
 
 export default function Header() {
     return (
@@ -24,7 +23,6 @@ export default function Header() {
                     <Route path="/Contect" element={<Contect />} />
                     <Route path="/InfoShare" element={<InfoShare />} />
                     <Route path="/Member" element={<Member />} />
-                    <Route path="/Q_A" element={<Q_A />} />
                     <Route path="/BaekJoon" element={<BaekJoon />} />
                 </Routes>
             </div>

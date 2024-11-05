@@ -7,7 +7,6 @@ export default function Nav() {
             <li><Link to="/Contect">Contect</Link></li>
             <li><Link to="/InfoShare">InfoShare</Link></li>
             <li><Link to="/Member">Member</Link></li>
-            <li><Link to="/Q_A">Q&A</Link></li>
             <li><Link to="/BaekJoon">BaekJoon</Link></li>
             <li>    
                 <div className='text-box'>
