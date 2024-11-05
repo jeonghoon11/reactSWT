@@ -11,16 +11,16 @@ export default function Header() {
     return (
         <div>
             <div className="header">
-            <h1 className="title">
-                <Link to="/">Study_Web</Link>
-            </h1>
-            <Nav />
+                <h1 className="title">
+                    <Link to="/Home">Study_Web</Link>
+                </h1>
+                <Nav />
             </div>
             <div>
                 <Routes>
                     <Route path="/Contect" element={<Contect />} />
                     <Route path="/InfoShare" element={<InfoShare />} />
-                    <Route path="/Member " element={<Member />} />
+                    <Route path="/Member" element={<Member />} />
                     <Route path="/Q_A" element={<Q_A />} />
                     <Route path="/BaekJoon" element={<BaekJoon />} />
                 </Routes>

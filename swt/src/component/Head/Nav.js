@@ -10,9 +10,11 @@ export default function Nav() {
             <li><Link to="/Q_A">Q&A</Link></li>
             <li><Link to="/BaekJoon">BaekJoon</Link></li>
             <li>    
-                <div>
-                    <input type="text" placeHolder="물어보세용" className="textBox"></input>
-                    <img src={Find} className="find"></img>
+                <div className='text-box'>
+                    <input type="text" placeHolder="물어보세용" className="Text"></input>
+                    <button className="find-button">
+                        <img src={Find} className='find-icon'></img>
+                    </button>
                 </div>  
             </li>
         </ul>
