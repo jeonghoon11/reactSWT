@@ -6,6 +6,7 @@ import Member from './Member';
 import Q_A from './Q_A';
 import BaekJoon from './BaekJoon';
 import Nav from "./Nav";
+import Home from "./Home";
 
 export default function Header() {
     return (
@@ -18,6 +19,8 @@ export default function Header() {
             </div>
             <div>
                 <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/Home" element={<Home />} />
                     <Route path="/Contect" element={<Contect />} />
                     <Route path="/InfoShare" element={<InfoShare />} />
                     <Route path="/Member" element={<Member />} />
