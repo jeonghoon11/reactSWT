@@ -9,7 +9,7 @@ import Home from "../Body/Home";
 
 export default function Header() {
     return (
-        <div>
+        <div className="header-nav">
             <div className="header">
                 <h1 className="title">
                     <Link to="/Home">Study_Web</Link>

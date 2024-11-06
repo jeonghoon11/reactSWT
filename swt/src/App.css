@@ -79,3 +79,11 @@ a:hover {
   from { transform: scale(1); }
   to { transform: scale(1.1); }
 }
+
+.header-nav {
+}
+
+.main-body {
+  height: 3000px;
+  background-color: black;
+}
