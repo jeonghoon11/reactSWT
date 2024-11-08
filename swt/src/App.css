@@ -80,10 +80,45 @@ a:hover {
   to { transform: scale(1.1); }
 }
 
-.header-nav {
+.home-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.main-body {
-  height: 3000px;
-  background-color: black;
+.container {
+  background-color: #5E6575;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border: 3px solid rgb(140, 140, 140);
+  border-radius: 30px;
+}
+
+.login-box {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+.username-box {
+  margin: 30px;
+}
+
+.passwd-box {
+  margin: 30px;
+}
+.user-icon {
+  position: relative;
+  left: 15px;
+  top: 3px;
+  width: 13px;
+  height: 13px;
+  opacity: 80%;
+  color: #5E6575;
 }
