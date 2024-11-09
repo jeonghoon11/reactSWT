@@ -6,14 +6,15 @@ import Member from '../Body/Member';
 import BaekJoon from '../Body/BaekJoon';
 import Nav from "./Nav";
 import Home from "../Body/Home";
+import Login from "../Body/Login";
 
 export default function Header() {
     return (
         <div className="header-nav">
             <div className="header">
-                <h1 className="title">
+                <div className="title">
                     <Link to="/Home">Study_Web</Link>
-                </h1>
+                </div>
                 <Nav />
             </div>
             <div>
@@ -24,6 +25,7 @@ export default function Header() {
                     <Route path="/InfoShare" element={<InfoShare />} />
                     <Route path="/Member" element={<Member />} />
                     <Route path="/BaekJoon" element={<BaekJoon />} />
+                    <Route path="/Login" element={<Login />} />
                 </Routes>
             </div>
         </div>
