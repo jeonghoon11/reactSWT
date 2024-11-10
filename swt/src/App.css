@@ -28,12 +28,14 @@
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
   border-radius: 10px;
-  border: 1px solid white;
+  font-size: 13px;
   opacity: 80%;
-  flex-grow: 1;
+  background-color: rgb(29, 28, 28);
   margin-right: 50px;
+  padding: 5px;
 }
 
 .nav-body {
@@ -45,7 +47,7 @@
 .text-box {
   position: relative;
   width: 110px;
-  border: 1px solid white;
+  border: 0.5px solid white;
   border-radius: 6px;
   padding: 5px;
 }
@@ -94,7 +96,6 @@ h1 > a:hover {
 }
 
 a:hover {
-  color: blue;
   animation-name : sizeup;
   animation-duration : 0.5s;
   animation-fill-mode: forwards;
@@ -102,7 +103,7 @@ a:hover {
 
 @keyframes sizeup {
   from { transform: scale(1); }
-  to { transform: scale(1.1); }
+  to { transform: scale(1.2); }
 }
 
 .home-body {
@@ -132,16 +133,21 @@ a:hover {
 }
 
 .username-box {
-  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
 
 .passwd-box {
-  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
 .user-icon {
   position: relative;
   left: 15px;
-  top: 3px;
   width: 13px;
   height: 13px;
   opacity: 80%;
