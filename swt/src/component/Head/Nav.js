@@ -8,7 +8,6 @@ export default function Nav() {
                 <li><Link to="/Contect">Contect</Link></li>
                 <li><Link to="/InfoShare">InfoShare</Link></li>
                 <li><Link to="/Member">Member</Link></li>
-                <li><Link to="/BaekJoon">BaekJoon</Link></li>  
             </ul>
             <div className='text-box'>
                 <input type="text" placeHolder="물어보세용" className="Text"></input>
