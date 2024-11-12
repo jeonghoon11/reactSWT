@@ -39,7 +39,7 @@
 }
 
 .nav-body {
-  width: 100%;
+  width: 70%;
   display: flex;
   align-items: center;
 }
@@ -173,4 +173,50 @@ a:hover {
 .highlight {
   font-weight: bold;
   display: inline;
+}
+
+.contect-main {
+  display: flex;
+
+}
+
+.contect-aside {
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(29, 28, 28);
+  width: 20%;
+  height: 800px;
+}
+
+.contect-body {
+  display: flex;
+  margin-top: 100px;
+  width: 80%;
+}
+
+.contect-aside-text {
+  width: 100%;
+  margin: 10px;
+}
+
+.contect-button {
+  width: 130px;
+  height: 100px;
+  background-color: white;
+  border-radius: 8px;
+  opacity: 75%;
+  margin: 5px;
+}
+
+.text-box-contect {
+  display: flex;
+  margin-left: 20px;
+}
+
+.find-icon-contect {
+  
+  width: 13px;
+  height: 13px;
+  opacity: 80%;
 }
