@@ -209,13 +209,21 @@ a:hover {
   margin: 5px;
 }
 
+.contect-button:hover {
+  animation-name : sizeup;
+  animation-duration : 0.3s;
+  animation-fill-mode: forwards;
+  background-color: rgb(29, 28, 28);
+  opacity: 70%;
+  color: white;
+}
+
 .text-box-contect {
   display: flex;
   margin-left: 20px;
 }
 
 .find-icon-contect {
-  
   width: 13px;
   height: 13px;
   opacity: 80%;
