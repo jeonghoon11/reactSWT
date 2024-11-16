@@ -6,6 +6,7 @@ import Member from '../Body/Member';
 import Nav from "./Nav";
 import Home from "../Body/Home";
 import Login from "../Body/Login";
+import Tool from "../Body/Tools/Tool";
 
 export default function Header() {
     return (
@@ -24,6 +25,7 @@ export default function Header() {
                     <Route path="/InfoShare" element={<InfoShare />} />
                     <Route path="/Member" element={<Member />} />
                     <Route path="/Login" element={<Login />} />
+                    <Route path="/Tool" element={<Tool />} />
                 </Routes>
             </div>
         </div>
