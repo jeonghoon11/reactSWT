@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 
 .main-body {
-  background-image: url(./component/Body/img/main-background.png);
+  background-image: url(./component/Body/img/main-background.png) !important;
   background-size: cover;
   width: 100%;
   height: 1000px;
