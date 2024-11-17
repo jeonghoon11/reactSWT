@@ -1,0 +1,60 @@
+.container {
+    margin: 20px;
+    height: 420px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.textContainer {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.none {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+}
+
+.listCreatBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.listBox {
+    width: 100%;
+    background-color: inherit;
+    border: 0;
+    color: #ccc;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.list_botton {
+    background-color: inherit;
+    color: white;
+    font-size: 15px;
+    border: 0;
+}
