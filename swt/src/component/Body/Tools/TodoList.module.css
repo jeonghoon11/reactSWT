@@ -1,9 +1,12 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
 .container {
     margin: 20px;
     height: 420px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 .title {
@@ -12,9 +15,12 @@
 
 .textContainer {
     display: flex;
+    position: relative;
+    animation: fade_up 1s;
     width: 100%;
     border-bottom: 1px solid #ccc;
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 .none {
@@ -57,4 +63,26 @@
     color: white;
     font-size: 15px;
     border: 0;
+}
+
+.checkbox:checked {
+    background-color: #ccc;
+}
+
+.checked_list_item {
+    text-decoration: line-through;
+    opacity: 60%;
+}
+
+.addButton {
+    background-color: inherit;
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+    border-radius: 10px;
+}
+
+@keyframes fade_up {
+    0% {opacity: 0; transform: translateY(100%);}
+    to { opactiy: 1; transform: translateY(0)}
 }
